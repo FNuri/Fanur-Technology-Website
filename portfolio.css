@@ -32,13 +32,17 @@ body {
   h4,
   h5,
   h6
+  
    {
     margin-top: 0;
+  
   }
   
   p {
     margin-top: 0;
     font-style: bold;
+    color: #000;
+  
   }
 
   img {
