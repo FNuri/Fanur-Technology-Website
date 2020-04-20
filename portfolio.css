@@ -31,11 +31,16 @@ body {
   h3,
   h4,
   h5,
-  h6,
-  p {
+  h6
+   {
     margin-top: 0;
   }
   
+  p {
+    margin-top: 0;
+    font-style: bold;
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -60,6 +65,8 @@ body {
     max-width: 960px;
     margin: 0 auto;
     overflow: hidden;
+  
+  
   }
   
   @media screen and (min-width: 1280px) {
@@ -94,6 +101,7 @@ body {
   header p {
     font-size: 90%;
     margin: 0;
+    
   }
   
   
@@ -149,6 +157,7 @@ body {
     background-color: #fff;
     padding-bottom: 40px;
     padding-top: 40px;
+   
   }
   
   @media screen and (max-width: 767px) {
@@ -165,8 +174,9 @@ body {
   }
   
   .sidebar {
-    color:#353131;
+    color:#0c0c0c;
     font-size: 85%;
+    
   }
   
   .sidebar h3 {
