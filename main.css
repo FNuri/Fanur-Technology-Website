@@ -40,13 +40,25 @@ html {
   font-size: 50px; 
   line-height: 50px; 
   font-weight: normal; 
-  margin-bottom: 30px; 
+  margin-bottom: 40px; 
   margin-top: 20px; 
   text-align: center; 
   text-shadow: 0 1px 1px #fff;
     
   }
   
+  .intro {
+  color:#E9F9F8;
+  font-family: "Great Vibes", cursive; 
+  font-size: 20px; 
+  line-height: 50px; 
+  font-weight: normal; 
+  margin-bottom: 30px; 
+  margin-top: 20px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff;
+ 
+  }
   
   .main-area h2 {
     font-size: 165%;
