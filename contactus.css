@@ -22,6 +22,13 @@ body {
   margin-top: 20px; 
   text-align: center; 
   text-shadow: 0 1px 1px #fff;
+  -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+    
+  
     
   }
   
@@ -117,6 +124,13 @@ body {
     color: #fff;
     padding: 10px 20px;
     background-color: #365267;
+    transition-property: color, background-color;
+    transition-duration: 2s;
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
   }
   
   .site-nav a:hover {
@@ -433,3 +447,41 @@ input[type=submit]:hover {
   padding: 20px;
 }
   
+.ani-a {
+  -webkit-animation: fadein 5s; 
+     -moz-animation: fadein 5s; 
+      -ms-animation: fadein 5s; 
+       -o-animation: fadein 5s; 
+          animation: fadein 5s;
+}
+
+.ani-b {
+-webkit-animation: fadein 10s; 
+   -moz-animation: fadein 10s; 
+    -ms-animation: fadein 10s; 
+     -o-animation: fadein 10s; 
+        animation: fadein 10s;
+}
+
+.ani-c {
+-webkit-animation: fadein 15s; 
+   -moz-animation: fadein 15s; 
+    -ms-animation: fadein 15s; 
+     -o-animation: fadein 15s; 
+        animation: fadein 15s;
+}
+
+
+.ani-d {
+-webkit-animation: fadein 20s; 
+   -moz-animation: fadein 20s; 
+    -ms-animation: fadein 20s; 
+     -o-animation: fadein 20s; 
+        animation: fadein 20s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
