@@ -149,7 +149,8 @@ body {
   }
   
   .site-nav a:hover {
-    background-color: #2c465a;
+    background-color: #fff;
+    color: #2c465a;
   }
   
   @media screen and (max-width: 1023px) {
