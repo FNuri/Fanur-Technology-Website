@@ -126,13 +126,12 @@ body {
     background-color: #365267;
     transition-property: color, background-color;
     transition-duration: 2s;
-    -webkit-animation: fadein 3s; 
-       -moz-animation: fadein 3s; 
-        -ms-animation: fadein 3s; 
-         -o-animation: fadein 3s; 
-            animation: fadein 3s;
-  }
-  
+    -webkit-animation: fadein 1.5s; 
+    -moz-animation: fadein 1.5s; 
+     -ms-animation: fadein 1.5s; 
+      -o-animation: fadein 1.5s; 
+         animation: fadein 1.5s;
+}
   .site-nav a:hover {
     background-color: #2c465a;
   }
@@ -151,7 +150,7 @@ body {
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1023px) {
     .site-nav li {
       width: 50%;
     }
@@ -448,36 +447,36 @@ input[type=submit]:hover {
 }
   
 .ani-a {
-  -webkit-animation: fadein 5s; 
-     -moz-animation: fadein 5s; 
-      -ms-animation: fadein 5s; 
-       -o-animation: fadein 5s; 
-          animation: fadein 5s;
+  -webkit-animation: fadein 2s; 
+     -moz-animation: fadein 2s; 
+      -ms-animation: fadein 2s; 
+       -o-animation: fadein 2s; 
+          animation: fadein 2s;
 }
 
 .ani-b {
--webkit-animation: fadein 10s; 
-   -moz-animation: fadein 10s; 
-    -ms-animation: fadein 10s; 
-     -o-animation: fadein 10s; 
-        animation: fadein 10s;
+-webkit-animation: fadein 3s; 
+   -moz-animation: fadein 3s; 
+    -ms-animation: fadein 3s; 
+     -o-animation: fadein 3s; 
+        animation: fadein 3s;
 }
 
 .ani-c {
--webkit-animation: fadein 15s; 
-   -moz-animation: fadein 15s; 
-    -ms-animation: fadein 15s; 
-     -o-animation: fadein 15s; 
-        animation: fadein 15s;
+-webkit-animation: fadein 4s; 
+   -moz-animation: fadein 4s; 
+    -ms-animation: fadein 4s; 
+     -o-animation: fadein 4s; 
+        animation: fadein 4s;
 }
 
 
 .ani-d {
--webkit-animation: fadein 20s; 
-   -moz-animation: fadein 20s; 
-    -ms-animation: fadein 20s; 
-     -o-animation: fadein 20s; 
-        animation: fadein 20s;
+-webkit-animation: fadein 5s; 
+   -moz-animation: fadein 5s; 
+    -ms-animation: fadein 5s; 
+     -o-animation: fadein 5s; 
+        animation: fadein 5s;
 }
 
 @keyframes fadein {
