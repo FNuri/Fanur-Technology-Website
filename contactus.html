@@ -1,26 +1,29 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <link href="./contactus.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
 
 <header class="section">
 
+ 
+    <div class="container">
   
-  <div class="container">
-
-    <nav class="site-nav">
-      <ul class="group">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>
-      </ul>
-    </nav>
-  </div>
   
-
-</header>
-
+      <nav class="site-nav">
+        <ul class="group">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+  
+  </header>
+  
 <div class="content-area group section">
-
   
   <div class="container">
 
@@ -30,25 +33,45 @@
     
       <div class="col col-md-8 push-down-sm">
 
-        <h2><strong class="ani-b" style="color:#000;font-size:46px;"> My Contact Details:</strong></h2>
+        <h2><strong class="ani-b" style="color:#000;font-size:46px;"> Get in touch with me:</strong></h2>
 
         
         <div class="row">
 
-         
-          <div class="col col-xs-6">
-            <img class="ani-a" src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80">
-          </div>
           
-          <div class="col col-xs-6">
+          <div class="col col-xs-6" style="margin-bottom: 100px;">
             <p class="ani-a"> <strong> <strong></p>
-            
-              <p class="ani-a"><a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin" >Email: fowsinur@gmail.com </a></p>
-              <p class="ani-a"><a href="https://github.com/FNuri" >GitHub: https://github.com/FNuri </a></p>
-              <p class="ani-a">Address: London/Riyadh</p>
-              <p class="ani-a">Phone number: +447391823062 </p>
-          </div>
-         
+                <div class="social-container" style="margin-bottom: 30px;">
+                    <a href="mailto:fowsinur@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/FNuri" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+                  </div>
+
+          <div> 
+              <i class="fas fa-map-marker-alt" class="ani-a" style="margin-bottom: 30px;"> Address: 178 Uxbridge Road, London, England</i>
+
+              <i class="fa fa-phone-square" class="ani-a" style="margin-bottom: 30px;"> Phone number: +447391823062</i>
+              <div class="container">
+                <form class="ani-a"  action="thankyou.html">
+              
+                  <label for="fname"><strong>First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+              
+                 </div>
+    
 
         </div>
         
@@ -57,26 +80,8 @@
       
 
       
-      <div class="col col-md-4 sidebar">
-       <div class="container">
-  <form class="ani-a"  action="thankyou.html">
+      
 
-    <label for="fname"><strong>First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-
-
-      </div>
 <footer>
   <p>&copy; 2020 - Fanur Technology</p>
 </footer>

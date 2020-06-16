@@ -226,6 +226,32 @@ body {
       10px 5px 5px rgba(0, 0, 0, 0.15);
   }
   
+  .social-container {
+    color: var(--main-color);
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: .625rem;
+  }
+  
+  .social-container i {
+    border: 2px solid var(--main-color);
+    border-radius: 30%;
+    font-size: 2.9rem;
+    height: 3.75rem;
+    margin: .35rem;
+    padding-top: .5375rem;
+    transition: background-color .5s, color .5s ease-in-out;
+    width: 3.75rem;
+  }
+  
+  .social-container i:hover {
+    background-color: var(--main-color);
+    color: #fff;
+  }
+  
+  
   @media screen and (max-width: 767px) {
     .box-a {
       margin-bottom: 15px;
@@ -464,36 +490,36 @@ input[type=submit]:hover {
 }
   
 .ani-a {
-  -webkit-animation: fadein 2s; 
-     -moz-animation: fadein 2s; 
-      -ms-animation: fadein 2s; 
-       -o-animation: fadein 2s; 
-          animation: fadein 2s;
+  -webkit-animation: fadein 1s; 
+     -moz-animation: fadein 1s; 
+      -ms-animation: fadein 1s; 
+       -o-animation: fadein 1s; 
+          animation: fadein 1s;
 }
 
 .ani-b {
--webkit-animation: fadein 3s; 
-   -moz-animation: fadein 3s; 
-    -ms-animation: fadein 3s; 
-     -o-animation: fadein 3s; 
-        animation: fadein 3s;
+-webkit-animation: fadein 1.5s; 
+   -moz-animation: fadein 1.5s; 
+    -ms-animation: fadein 1.5s; 
+     -o-animation: fadein 1.5s; 
+        animation: fadein 1.5s;
 }
 
 .ani-c {
--webkit-animation: fadein 4s; 
-   -moz-animation: fadein 4s; 
-    -ms-animation: fadein 4s; 
-     -o-animation: fadein 4s; 
-        animation: fadein 4s;
+-webkit-animation: fadein 2s; 
+   -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+     -o-animation: fadein 2s; 
+        animation: fadein 2s;
 }
 
 
 .ani-d {
--webkit-animation: fadein 5s; 
-   -moz-animation: fadein 5s; 
-    -ms-animation: fadein 5s; 
-     -o-animation: fadein 5s; 
-        animation: fadein 5s;
+-webkit-animation: fadein 2.5s; 
+   -moz-animation: fadein 2.5; 
+    -ms-animation: fadein 2.5; 
+     -o-animation: fadein 2.5; 
+        animation: fadein 2.5;
 }
 
 @keyframes fadein {
