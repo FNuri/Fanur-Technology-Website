@@ -2359,3 +2359,14 @@ footer {
 
 }
 
+
+.fade {
+  opacity: 0;
+  
+}
+
+
+:hover {
+  transform: scale(1.2);
+  
+}
