@@ -2370,3 +2370,13 @@ footer {
   transform: scale(1.2);
   
 }
+
+
+#contact h3 {
+	color: rgb(60, 90, 224);
+	display: block;
+	font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
