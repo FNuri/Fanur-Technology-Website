@@ -1708,8 +1708,6 @@ body {
 .social-icons li {
   display: inline-block;
   list-style-type: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
 }
 .social-icons li a {
   border-bottom: none;
